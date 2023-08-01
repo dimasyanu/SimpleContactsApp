@@ -21,6 +21,15 @@ body {
   font-smoothing: antialiased;
 }
 
-main.container {
+.back-link {
+  text-decoration: none;
+  color: #333;
+  > i.icon::before {
+      margin-right: .5rem;
+  }
+}
 
+.separator {
+  border-left: 1px solid #333;
+  margin: 0 .5rem;
 }

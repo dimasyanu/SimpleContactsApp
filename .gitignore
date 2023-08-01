@@ -406,3 +406,5 @@ ASALocalRun/
 
 appsettings.*
 !appsettings.example.json
+
+SimpleContactsApp.Client/dist

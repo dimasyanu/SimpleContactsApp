@@ -235,6 +235,11 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
+bootstrap@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.1.tgz#8ca07040ad15d7f75891d1504cf14c5dedfb1cfe"
+  integrity sha512-jzwza3Yagduci2x0rr9MeFSORjcHpt0lRZukZPZQJT1Dth5qzV7XcgGqYzi39KGAVYR8QEDVoO0ubFKOxzMG+g==
+
 braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -420,6 +425,11 @@ semantic-ui-container@^2.5.0:
   resolved "https://registry.yarnpkg.com/semantic-ui-container/-/semantic-ui-container-2.5.0.tgz#7bba8f5bb018a29a7dc5cd70bb8b780d41a4f924"
   integrity sha512-ok5GIhNTuKpz5KzEyw4Lp2wUa6JjqtS4grYpYtmEejOLJFnJhev5QKD48SjfLKq5hj3J7GDwzazXfvT8wga3Qg==
 
+semantic-ui-form@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-form/-/semantic-ui-form-2.5.0.tgz#dbbf72390781c3c273acfaf7cae85cee4b06f5be"
+  integrity sha512-a7zjvWq3/YG3lyLh6R76XSCchL3zKN6qFETHXiNqGZ8xaBEs1qd/4P2fVb+eUxwmP3yFvMy/JjSyCalAZ0HXhw==
+
 semantic-ui-grid@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/semantic-ui-grid/-/semantic-ui-grid-2.5.0.tgz#fda4c367c2510872b133aad10b13564a1bffc8e0"
@@ -429,6 +439,31 @@ semantic-ui-header@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/semantic-ui-header/-/semantic-ui-header-2.5.0.tgz#490cdc50d3737bdc3f3857a2e6609310df68ad22"
   integrity sha512-ihMpuIFQoQ1Foa5mIHuKNfzhb3HOCm+/+P7874rvhH6dk4N4GT+GfafTOEhVSBlHokfqmPscZ0+MOXjAWbBA+g==
+
+semantic-ui-icon@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-icon/-/semantic-ui-icon-2.5.0.tgz#80cdb4802ff10d26cd798f00d23e2e9d46c2480f"
+  integrity sha512-okG32TSrOPyHidFgPfkuBOBXR8Alx25XTzSPP8n+7C17vgwJC/BWOBe4P+xcYDpei1oqB9zpoNlW3kC4ikGpoA==
+
+semantic-ui-image@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-image/-/semantic-ui-image-2.5.0.tgz#1a5771d94fbeacbc6912f3c21a29af5ba59d9736"
+  integrity sha512-LLo72Le1N9mIAzFpEQFXyUZ3pRWYaOhA9e3Ok2ydgjNgIHzN36+rqpqw+nfXTsFWChPjIe4xd2mXwaLlVtvIRA==
+
+semantic-ui-list@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-list/-/semantic-ui-list-2.5.0.tgz#75f76376032c1e6c64c9d7455adc37368baf7a3d"
+  integrity sha512-KRGfQIpxke32Tz5B9nzt8ahxOE8d39X0/DKRbOLg+tf781jaB3vBspsjaOgxKdp2gzT/NW6wm065VMPgxgWX8A==
+
+semantic-ui-menu@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-menu/-/semantic-ui-menu-2.5.0.tgz#e277747ecf553ae5c8a437622a0b5249d2f8845b"
+  integrity sha512-sVH2EXbW1XfADsUEyEx8Fx+wPAnflcjdooAlFwn910C/7Mj2PSftZ6vOLaL0kRhyBW0jyfF2NZFUygAxECcZPw==
+
+semantic-ui-tab@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-tab/-/semantic-ui-tab-2.5.0.tgz#c253f0e4c94ff26771abba99cd0a4b184f31f5f6"
+  integrity sha512-ttOkZP3s8MunGvC2epjs/L7mpQEPz+r2HZu/kG7ibGcCB2f7XrwqILFz+JGIAIJvLz4GH6coHv6LHnLvCl/vrQ==
 
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"

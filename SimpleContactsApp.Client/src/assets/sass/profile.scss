@@ -1,0 +1,94 @@
+#container-profile {
+    padding-top: 4rem;;
+    .profile-top {
+        text-align: center;
+        .avatar {
+            max-width: 150px;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: #fff;
+
+            img {
+                filter: opacity(.3);
+            }
+        }
+
+        > h2 {
+            margin-bottom: .5rem;
+        }
+
+        > span {
+            color: #aeaeae;
+        }
+    }
+}
+
+#tab-contact-list,
+#tab-invitations {
+    padding: 1.5rem;
+
+    .item {
+        position: relative;
+
+        > img {
+            max-width: 2.5rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .content {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: .7rem;
+        }
+
+        .remove-btn {
+            color: rgb(216, 4, 4);
+            cursor: pointer;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+        
+        .btn-group {
+            .btn {
+                cursor: pointer;
+
+                &.accept-btn {
+                    color: rgb(0, 128, 0);
+                }
+
+                &.reject-btn {
+                    color:rgb(216, 4, 4);
+                }
+
+                &.accept-btn:hover,
+                &.reject-btn:hover {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .btn-group,
+        .remove-btn {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:hover {
+            background-color: #f7f7f7;
+        }
+    }
+}
+
+#tab-user-info {
+    padding: 1.5rem;
+
+    table tr td {
+        vertical-align: top;
+        padding: .25rem;
+    }
+}
